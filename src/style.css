@@ -2,6 +2,7 @@
 .contenedor{
     border:5px dotted blue;
     height: 700px;
+    position: relative;
 }
 .posicion{
     width: 200px;
@@ -18,11 +19,15 @@
 .relative{
     background-color: yellow;
     position: relative;
-    top: 20px;
-    left: 90px;
+    left: 50%;
+    top: 50%;
+    left: 0px;
     right: 0;
 }
 .absolute{
+    position: absolute;
+    left: 0;
+    top: 0;
     background-color: skyblue;
 }
 .fixed{
