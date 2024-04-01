@@ -32,4 +32,7 @@
 }
 .fixed{
     background-color: greenyellow;
+    position: fixed;
+    top: 60px;
+    left: 80px;
 }
