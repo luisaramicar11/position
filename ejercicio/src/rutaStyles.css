@@ -1,0 +1,58 @@
+html{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-navegacion{
+    height: 5rem;
+    border-bottom: 0.1rem;
+    border-bottom-color:rgb(167, 30, 167) ;
+    border-bottom-style: solid;
+}
+
+.logo{
+    width: 6rem;
+    height: 4rem;
+}
+.navegacion{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+   
+}
+.titulo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.etapas-temas{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    width: 50%;
+}
+.etapas-temas div{
+    text-align: center;
+    font-size: 0.8rem;
+}
+.etapas-temas img{
+    height: 5rem;
+    width: 5rem;
+}
+.contenedor-etapas{
+    padding: 1rem;
+    margin: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+}
+.titulo-etapa-basica{
+    margin-left: 1rem;
+}
