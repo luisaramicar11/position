@@ -10,10 +10,17 @@ html{
     padding: 0;
 }
 
+header{
+    position: sticky;
+    background-color: #ffff;
+    top: 0;
+    left: 0;
+}
+
 .contenedor-navegacion{
     height: 5rem;
     border-bottom: 0.1rem;
-    border-bottom-color:rgb(167, 30, 167) ;
+    border-bottom-color:#7B6FD9;
     border-bottom-style: solid;
 }
 
@@ -48,11 +55,35 @@ html{
     width: 5rem;
 }
 .contenedor-etapas{
+    background-color:#f9fafc;
     padding: 1rem;
     margin: 2rem;
     display: flex;
     flex-flow: row wrap;
 }
 .titulo-etapa-basica{
+    background-color: #ffff;
     margin-left: 1rem;
+    position: sticky;
+    top:5rem;
+    left: 0;
+    
+}
+.contenedor-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    padding-bottom: 0.3rem;
+}
+.redes-sociales{
+    display: flex;
+    list-style: none;
+}
+.img-redes{
+    width: 2rem;
+    height: 2rem;
+}
+.autor{
+    color: #7B6FD9;
 }
